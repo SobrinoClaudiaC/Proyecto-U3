@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plants vs Zombies 2</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="module" src="./src/js/script2.js"></script>
+    <script type="module" src="./assets/js/áreas.js"></script>
+    <script type="module" src="./assets/js/zombies.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  
+    <!-- Enlace al CSS externo -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body> 
+    <!-- Encabezado -->
+    <header>
+      <h1>
+        <img
+          src="./assets/img/logo.png"
+          alt="Logo Plants vs Zombies"
+          class="logo"
+        />
+      </h1> 
+    </header> 
+
+    <!-- Navegación -->
+    <nav>
+      <a href="./plantas.html">Plantas</a>
+      <a href="./zombies.html">Zombies</a>
+      <a href="./áreas.html">Áreas</a>
+      <a href="#caracteristicas"></a>
+    </nav>
+    <!-- Contenido Principal -->
+    <main>
+      <!-- Barra lateral con novedades -->
+      <aside>
+        <h2>Novedades</h2>
+        <div class="news-item">
+          <img src="./assets/img/planta1.png" alt="Planta 1" />
+          <p>
+            En la próxima actualización reorganizaremos nuestros niveles de mundo y cómo aparecen en el juego.
+            Estamos simplificando el recorrido que realizan los usuarios en el mapa de mundo a la hora de enfrentarse a los niveles más difíciles (y estamos mejorando las recompensas mientras aplicamos los cambios).
+          </p>
+        </div>
+        <div class="news-item">
+          <img src="./assets/img/planta2.webp" alt="Planta 2" />
+          <p>
+            En estos momentos hay niveles con una dificultad superior en Antiguo Egipto, Mares piratas, Salvaje Oeste, Pantano del jurásico, Futuro lejano y Tiempos modernos que solo son accesibles después de derrotar a Dr. Zombi.
+          </p>
+        </div>
+        <div class="news-item">
+          <img src="./assets/img/planta3.jpg" alt="Planta 3" />
+          <p>
+             Con la nueva actualización, esos niveles difíciles pasarán a ser eventos de misiones. Estos niveles rotarán en las misiones de forma regular y conseguirás joyas cuando los completes.
+          </p>
+        </div>
+      </aside>
+
+      <!-- Sección principal de contenido -->
+      <section>
+        <div class="intro">
+          <h2>Plants vs Zombies 2</h2>
+          <p>
+            Es un juego de Tower Defense desarrollado por PopCap y Electronic Arts. Este juego es una secuela del galardonado juego Plantas contra Zombis. <br>
+            Lucha contra una variedad enorme de zombis en cada esquina, como Zombi propulsado y Zombidito sirena. ¡Incluso tendrás que proteger tu cerebro de las arrolladoras Gallinas zombi! Gana paquetes de semillas mientras juegas y úsalas para alimentar tus plantas poderosas.
+          </p>
+        </div>
+        <!-- Inserción del video de YouTube -->
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/videoseries?list=PLG6c4yPY2xvS3AcHE8C9DdWvHb0A98gEj"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <div id="pvz-container"></div>
+
+    <!-- Pie de página -->
+    <footer>
+      <img src="./img/footer.png" alt="Plants vs Zombies" />
+      <div class="download-buttons">
+        <a href="#">Disponible en App Store</a>
+        <a href="#">Disponible en Google Play</a>
+      </div>
+      <div class="social-icons">
+        <a href="#">🔵</a>
+        <a href="#">🕊️</a>
+        <a href="#">📺</a>
+      </div>
+    </footer>
+  </body>
+</html>

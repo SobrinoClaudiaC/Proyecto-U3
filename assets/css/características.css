@@ -9,38 +9,40 @@ body {
     flex-direction: column;
 }
 
+/* Encabezado */
 header {
-  background-color: #4caf50;
+  background-color: #4caf50; /* Verde oscuro original */
   text-align: center;
   color: #fff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
+
 header .logo {
   width: 500px;
   height: auto;
-  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out; 
 }
 
 header .logo:hover {
-  transform: rotate(360deg);
+  transform: rotate(180deg); 
 }
 
+/* Navegación */
 nav {
-  background-color: #90ee90;
+  background-color: #90ee90; 
   text-align: center;
   padding: 15px 0;
   position: sticky;
   top: 0;
-  width: 100%;
   z-index: 1000;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 nav a {
   margin: 0 20px;
-  color: #000;
+  color: #000; 
   font-size: 18px;
   text-decoration: none;
   transition: color 0.3s ease, transform 0.3s ease;
@@ -48,24 +50,23 @@ nav a {
 }
 
 nav a:hover {
-  color: #fff;
+  color: #fff; 
   transform: translateY(-5px);
 }
 
-.content {
-    width: 60%;
-    background-color: #a16c3a;
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-    border: 3px solid #7c5024;
-    position: relative;
-    border-image: url('https://www.transparenttextures.com/patterns/wood.png') 30 stretch;
-    background: url('https://www.transparenttextures.com/patterns/paper.png');
-    background-color: #b58e5d;
-    background-blend-mode: multiply;
-    max-width: 900px;
-    margin: auto;
+h1 {
+  font-family: 'Kalam', cursive;
+  font-size: 3.5em;
+  font-weight: 1000;
+  color: #2c221b;
+  text-shadow: 2px 2px 0px #696969;
+  margin: 20px 0;
+  animation: titlePulse 2s infinite;
+  transition: transform 0.3s ease-in-out;
+}
+
+h1:hover {
+  transform: scale(1.1);
 }
 
 h2 {
